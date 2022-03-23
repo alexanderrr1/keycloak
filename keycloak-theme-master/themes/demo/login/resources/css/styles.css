@@ -1,0 +1,158 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+ul {
+  max-width: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.login-image{
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+
+.col-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.label-block{
+  display: block;
+  font-size: 70%;
+}
+
+.input-block{
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  outline: none;
+  border-width: thin;
+  width: 100%;
+}
+
+.center-text{
+  text-align: center;
+}
+
+.container-social-button{
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-button-google{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%; 
+  background-color: white;
+  border-style: solid;
+  border-radius: 1%;
+  color: black !important;
+  border-width: thin;
+  border-color: black;
+  border-radius: 0.2rem;
+}
+
+.link-noStyle{
+  text-decoration: none !important;
+}
+
+#customBtn {
+  display: inline-block;
+  justify-content: space-between;
+  background: white;
+  width: 100%;
+  border-radius: 5px;
+  border: thin solid #888;
+  box-shadow: 1px 1px 1px grey;
+}
+
+#customBtn:hover {
+  cursor: pointer;
+}
+span.label {
+  font-family: serif;
+  font-weight: normal;
+}
+span.icon.google {
+  background: url(../img/g-normal.png) transparent 5px 50% no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  width: 42px;
+  height: 42px;
+}
+span.icon.facebook {
+  background: url(../img/facebook.png) transparent 5px 50% no-repeat;
+  background-size: auto;
+  display: inline-block;
+  vertical-align: middle;
+  width: 42px;
+  height: 42px;
+}
+span.icon.instagram {
+  background: url(../img/Instagram.png) transparent 5px 50% no-repeat;
+  background-size: auto;
+  display: inline-block;
+  vertical-align: middle;
+  width: 42px;
+  height: 42px;
+}
+span.buttonText {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 42px;
+  padding-right: 42px;
+  font-size: 14px;
+  font-weight: bold;
+  /* Use the Roboto font that is loaded in the <head> */
+  font-family: 'Roboto', sans-serif;
+}
+
+.form-width{
+  width: 70%;
+}
+
+.ul-order{
+  display: flex;
+  justify-content: space-around;
+}
+
+.right-position{
+  margin-left: auto;
+}
+
+.font-sm{
+  font-size: small;
+}
+
+#input-error{
+  color: red;
+  font-size: small;
+}
+
+.alert-error{
+  color: red;
+  font-size: small;
+}
+
+@media screen and (max-width: 768px) {
+  
+  .login-image{
+    background-image: url(../img/background_small.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}

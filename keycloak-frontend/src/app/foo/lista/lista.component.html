@@ -1,0 +1,19 @@
+<div class="container mt-4">
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">id</th>
+            <th scope="col">name</th>
+            <th scope="col">ver</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let foo of foos">
+            <th scope="row">1</th>
+            <td>{{foo.id}}</td>
+            <td>{{foo.name}}</td>
+            <td><Button class="btn btn-outline-primary"><i class="far fa-eye"></i> Ver</Button></td>
+
+        </tbody>
+      </table>
+</div>
